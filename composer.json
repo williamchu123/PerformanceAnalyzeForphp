@@ -1,0 +1,23 @@
+{
+    "name": "zhudesheng/performance-analyze-forphp",
+    "description": "this is performance analyze tool",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zhudesheng",
+            "email": "zhudesheng@xiaoyouzi.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "4.8.36"
+    },
+    "autoload": {
+        "psr-4": {
+            "ZhuDeSheng\\Tool\\": "src/"
+        }
+    }
+
+}
