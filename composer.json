@@ -1,8 +1,8 @@
 {
     "name": "zhudesheng/performance-analyze-forphp",
-    "description": "this is performance analyze tool",
-    "type": "project",
+    "description": "this is performance analyze tool for php 5.4 and higher",
     "license": "MIT",
+    "keywords": ["php", "performance analyze", "tool"],
     "authors": [
         {
             "name": "zhudesheng",
@@ -10,7 +10,9 @@
         }
     ],
     "minimum-stability": "stable",
-    "require": {},
+    "require": {
+        "php": ">=5.4.0"
+    },
     "require-dev": {
         "phpunit/phpunit": "4.8.36"
     },
